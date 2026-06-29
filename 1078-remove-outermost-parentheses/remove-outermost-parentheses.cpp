@@ -16,13 +16,5 @@ public:
         return result;
     }
 
-    int main() {
-        string s = "(()())(())";
-        Solution sol;
-        string ans = sol.removeOuterParentheses(s);
-        cout<< "The result is: " << ans << endl;
-        return 0;
-     
-        
-    }
+    
 };
